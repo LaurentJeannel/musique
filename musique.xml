@@ -1,0 +1,8 @@
+    	<item>mets de la musique dans la chambre<tag>data.MusiqueLieux="192.168.0.39";</tag></item>
+    	<item>mets de la musique dans le bureau<tag>data.MusiqueLieux="192.168.0.10";</tag></item>
+    	<item>mets de la musique chez Jean<tag>data.MusiqueLieux="192.168.0.101";</tag></item>
+		
+	<item>coupe la musique dans la chambre<tag>data.ArretMusiqueLieux="192.168.0.39";</tag></item>
+    <item>coupe la musique dans le bureau<tag>data.ArretMusiqueLieux="192.168.0.10";</tag></item>
+   	<item>coupe la musique chez Jean<tag>data.ArretMusiqueLieux="192.168.0.101";</tag></item>
+    <item>coupe la musique<tag>data.ArretMusiqueLieux="stop";</tag></item>
