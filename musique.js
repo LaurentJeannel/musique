@@ -50,10 +50,10 @@ JarvisAskMe('quelle type de musique',function(result){
            stats1 = fs1.lstatSync(p1.join(chemin, file1));//console .log(stats1 +"aaaaaaaaaaaaa")
                                            
             if(stats1.isDirectory()) {
-                            
+
               list1 = list1.concat(recursiveReaddirSync2(p1.join(chemin, file1),result));       
         
-                if (result.search(file1)>-1){
+                if (result.search(new RegExp(file1,"gi"))>-1){
                   var path3=chemin+"\\"+file1                
                   zz(path3,compteur)
                   return false
